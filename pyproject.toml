@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "agent-detector==2.0.0",
+    "aiosqlite>=0.22.1",
     "annotated-doc==0.0.5",
     "annotated-types==0.8.0",
     "anyio==4.15.1",
@@ -43,7 +44,7 @@ dependencies = [
     "rignore==0.8.1",
     "sentry-sdk==2.69.2",
     "shellingham==1.5.4",
-    "sqlalchemy>=2.1.4",
+    "sqlalchemy[asyncio]>=2.1.4",
     "starlette==1.6.0",
     "typer==0.27.2",
     "typing-extensions==4.16.0",
